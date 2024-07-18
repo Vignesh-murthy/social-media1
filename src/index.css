@@ -1,0 +1,144 @@
+/* index.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa;
+}
+
+/* AnalyticsCard styles */
+.analytics-card {
+  background-color:black;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+.analytics-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.analytics-card p {
+  font-size: 14px;
+  color: white;
+  margin: 5px 0;
+}
+
+.analytics-card p span {
+  font-weight: bold;
+  color: white;
+}
+
+
+.username {
+  font-weight: bold;
+  margin-left: 10px;
+  color: white;
+}
+
+/* Flexbox for aligning items in the header */
+.analytics-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card-section {
+  margin-top: 20px;
+  border-top: 1px solid #dbdbdb;
+  padding-top: 20px;
+  display:flex;
+  justify-content: space-between;
+}
+.card-section1{
+  margin-top: 20px;
+  border-top: 1px solid #dbdbdb;
+  padding-top: 20px;
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.card-section p {
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+  background-color: #0095f6;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.footer {
+  margin-top: auto; 
+  display: flex;
+  justify-content: space-around; 
+  background-color: #333;
+  padding: 10px 0;
+ 
+}
+
+.footer-icon {
+  color: white; 
+  font-size: 24px;
+  cursor: pointer; 
+}
+
+.footer-icon:hover {
+  color: #aaa;
+}
+
+button:hover {
+  background-color: #007bb5;
+}
+.dashboard{
+  
+  height: 100vh;
+}
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+a{
+  color: aqua;
+}
+.stats{
+  display: flex;
+  justify-content: space-between;
+}
+.feed{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+.posts{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+  color: white;
+}
